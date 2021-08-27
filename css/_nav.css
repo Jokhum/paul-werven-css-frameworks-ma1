@@ -1,0 +1,29 @@
+.navbar-brand {
+  font-family: "Open Sans", sans-serif;
+  font-size: 36px;
+}
+
+.navbar {
+  background-color: var(--nav-colour) !important;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0.2px 0.2px 5px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.nav-link {
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 18px;
+}
+
+.nav-link {
+  color: var(--link-colour) !important;
+}
+
+.navbar-nav .active {
+  color: var(--primary-colour) !important;
+}
