@@ -13,9 +13,14 @@
 
 .navbar-toggler {
   border: none;
+  display: none;
 }
 
-.nav-link {
+button.collapsed {
+  display: block;
+}
+
+.nav-bar-toggler .nav-link {
   font-family: "Archivo Narrow", sans-serif;
   font-size: 18px;
 }
